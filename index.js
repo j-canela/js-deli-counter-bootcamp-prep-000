@@ -31,7 +31,7 @@ function currentLine(n){
     for(var i=0; i<n.length; i++){
       
      if(i===0){ 
-  
+   currentLine[i]= (i+1)+". "+n[i];
      } else{
         currentLine[i]= " "+(i+1)+". "+n[i];
      }
