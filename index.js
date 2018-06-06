@@ -9,22 +9,26 @@ function takeANumber(katzDeliLine,name){
 
 function nowServing(n){
   
-  if(n.length > 0){
-    
-    var nowServing = n.shift()
-   return 'Currently serving '+nowServing+'.'
+
+ 
+}
+
+function currentLine(n){
   
+  var currentLine=[];
+  
+    if(n.length > 0){
+    for(var i=0; i<n.length; i++){
+   currentLine[i]=n[i];
+    }
+    
+    return currentLine
   }
  
   if( n.length === 0){
   return "There is nobody waiting to be served!"
  
 }
- 
-}
-
-function currentLine(n){
-  
   
   
 }
