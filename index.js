@@ -9,21 +9,22 @@ function takeANumber(katzDeliLine,name){
 
 function nowServing(n){
   
- 
   if(n.length > 0){
     
     var nowServing = n.shift()
    return 'Currently serving '+nowServing+'.'
   
   }
-  
  
   if( n.length === 0){
   return "There is nobody waiting to be served!"
  
 }
  
+}
 
+function currentLine(n){
   
-
+  
+  
 }
