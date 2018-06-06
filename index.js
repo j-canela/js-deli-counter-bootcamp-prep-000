@@ -29,7 +29,9 @@ function currentLine(n){
   
     if(n.length > 0){
     for(var i=0; i<n.length; i++){
-   currentLine[i]= (i+1)+". "+n[i]+" ";
+      
+      
+   currentLine[i]= (i+1)+". "+n[i];
     }
     
     return "The line is currently: "+currentLine
