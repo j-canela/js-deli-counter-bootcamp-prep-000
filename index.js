@@ -23,4 +23,22 @@ function nowServing(n){
  
 }
 
-function currentLine(){}
+function currentLine(n){
+  
+  var currentLine=[];
+  
+    if(n.length > 0){
+    for(var i=0; i<n.length; i++){
+   currentLine[i]= (i+1)+". "+n[i];
+    }
+    
+    return "The line is currently: "+currentLine
+  }
+ 
+  if( n.length === 0){
+  return "The line is currently empty."
+ 
+}
+  
+  
+}
