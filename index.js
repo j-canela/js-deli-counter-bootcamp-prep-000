@@ -11,8 +11,10 @@ function nowServing(n){
   
  
   if(n.length > 0){
-   return 'Currently serving '+n[0]+'.'
-   n.splice(0,1)
+    
+    var nowServing = n.shift()
+   return 'Currently serving '+nowServing+'.'
+  
   }
   
  
